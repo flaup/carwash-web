@@ -1,11 +1,11 @@
-import uvicorn
 from fastapi import FastAPI
+from CarwashAPI.routers.carwashes import router as carwashes_router
 
 app = FastAPI()
-#2
+
+
+app.include_router(carwashes_router)
+
 @app.get("/users")
 def home():
     return "Test"
-
-if __name__ == "__main__":
-    uvicorn.run("main:app", reload= True)
