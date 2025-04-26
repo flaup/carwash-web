@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a81cc83c-a8ce-4885-bba5-0801caea70db" name="Changes" comment="создание директории">
-      <change afterPath="$PROJECT_DIR$/CarwashAPI/api/carwashes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CarwashAPI/db/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CarwashAPI/models/carwash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CarwashAPI/schemas/carwash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CarwashAPI/services/filter_by_service.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CarwashAPI/services/filter_by_time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarwashAPI/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/CarwashAPI/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="a81cc83c-a8ce-4885-bba5-0801caea70db" name="Changes" comment="добавление фильтров по поиску автомоек" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,13 +97,22 @@
       <option name="project" value="LOCAL" />
       <updated>1745595720096</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="добавление фильтров по поиску автомоек">
+      <option name="closed" value="true" />
+      <created>1745689579096</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745689579096</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Подключение swagger" />
     <MESSAGE value="создание директорий" />
     <MESSAGE value="создание директории" />
-    <option name="LAST_COMMIT_MESSAGE" value="создание директории" />
+    <MESSAGE value="добавление фильтров по поиску автомоек" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление фильтров по поиску автомоек" />
   </component>
 </project>
