@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from CarwashAPI.routers.carwashes import router as carwashes_router
+from CarwashAPI.api.carwashes import router as carwashes_router
 
 app = FastAPI()
 
